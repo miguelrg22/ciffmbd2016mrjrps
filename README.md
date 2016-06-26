@@ -20,7 +20,5 @@ Limpieza de datos, detección y reemplazo de valores anómalos y perdidos, trans
 - Una función que aplica 6 tipos de modelos y te devuelve cuál es el que se ajusta más.
 En la función "seleccion" se parte de dos data frames: 
 data frame de entrenamiento (df_train) y el data frame de testeo (df_test). También hay que declarar la variable objetivo (y_train).
-
 La función "seleccion" ejecuta 6 algoritmos de aprendizaje automático: Logistic Regression, Decission Tree Regressor, Naive Bayes, Random Forest, Support Vector Machine y Redes Neuronales. 
-
 Una vez ejecutados los algoritmos, calculamos el RMSE y el Gini del modelo para evaluar el mejor modelo, en caso de no concurrencia, se determina el mejor modelo a través de Gini.
