@@ -1,9 +1,11 @@
 # ciffmbd2016mrjrps
 Automatización de procesos con python
 
+https://pypi.python.org/pypi/bdusers
+
 ## INSTALACIÓN
 
-import install bdusers
+pip install bdusers
 
 ## DESCRIPCIÓN
 
